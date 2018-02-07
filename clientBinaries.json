@@ -1,24 +1,24 @@
 {
     "clients": {
-        "Geth": {
+        "Aura": {
             "version": "1.7.3",
             "platforms": {
                 "linux": {
                     "x64": {
                         "download": {
-									 "url": "https://github.com/YouStock/go-aura/releases/download/1.7.3.1/geth-aura-linux-amd64_1.7.3.tar.gz",
+									 "url": "https://github.com/YouStock/go-aura/releases/download/1.7.3.1/aura-aura-linux-amd64_1.7.3.tar.gz",
                             "type": "tar",
                             "md5": "598d3326376464c97d8d7de1f2157e56",
-                            "bin": "geth-aura-linux-amd64_1.7.3/geth"
+                            "bin": "aura-aura-linux-amd64_1.7.3/aura"
                         },
-                        "bin": "geth",
+                        "bin": "aura",
                         "commands": {
                             "sanity": {
                                 "args": [
                                     "version"
                                 ],
                                 "output": [
-                                    "Geth",
+                                    "Aura",
                                     "1.7.3"
                                 ]
                             }
@@ -26,19 +26,19 @@
                     },
                     "ia32": {
                         "download": {
-                            "url": "https://github.com/YouStock/go-aura/releases/download/1.7.3.1/geth-aura-linux-386_1.7.3.tar.gz",
+                            "url": "https://github.com/YouStock/go-aura/releases/download/1.7.3.1/aura-aura-linux-386_1.7.3.tar.gz",
                             "type": "tar",
                             "md5": "0e91d298e5516164f58c6ca9497c23b8",
-                            "bin": "geth-aura-linux-386_1.7.3/geth"
+                            "bin": "aura-aura-linux-386_1.7.3/aura"
                         },
-                        "bin": "geth",
+                        "bin": "aura",
                         "commands": {
                             "sanity": {
                                 "args": [
                                     "version"
                                 ],
                                 "output": [
-                                    "Geth",
+                                    "Aura",
                                     "1.7.3"
                                 ]
                             }
@@ -48,19 +48,19 @@
                 "mac": {
                     "x64": {
                         "download": {
-                            "url": "https://github.com/YouStock/go-aura/releases/download/1.7.3.1/geth-aura-darwin-10.6-amd64_1.7.3.tar.gz",
+                            "url": "https://github.com/YouStock/go-aura/releases/download/1.7.3.1/aura-aura-darwin-10.6-amd64_1.7.3.tar.gz",
                             "type": "tar",
                             "md5": "23f768001533a3296f5e8cc6d5270239",
-                            "bin": "geth-aura-darwin-10.6-amd64_1.7.3/geth"
+                            "bin": "aura-aura-darwin-10.6-amd64_1.7.3/aura"
                         },
-                        "bin": "geth",
+                        "bin": "aura",
                         "commands": {
                             "sanity": {
                                 "args": [
                                     "version"
                                 ],
                                 "output": [
-                                    "Geth",
+                                    "Aura",
                                     "1.7.3"
                                 ]
                             }
@@ -70,19 +70,19 @@
                 "win": {
                     "x64": {
                         "download": {
-                            "url": "https://github.com/YouStock/go-aura/releases/download/1.7.3.1/geth-aura-windows-4.0-amd64_1.7.3.zip",
+                            "url": "https://github.com/YouStock/go-aura/releases/download/1.7.3.1/aura-aura-windows-4.0-amd64_1.7.3.zip",
                             "type": "zip",
                             "md5": "5e965e92dec39ad8c9a11f6b86f59272",
-                            "bin": "geth-aura-windows-4.0-amd64_1.7.3\\geth.exe"
+                            "bin": "aura-aura-windows-4.0-amd64_1.7.3\\aura.exe"
                         },
-                        "bin": "geth.exe",
+                        "bin": "aura.exe",
                         "commands": {
                             "sanity": {
                                 "args": [
                                     "version"
                                 ],
                                 "output": [
-                                    "Geth",
+                                    "Aura",
                                     "1.7.3"
                                 ]
                             }
@@ -90,19 +90,19 @@
                     },
                     "ia32": {
                         "download": {
-                            "url": "https://github.com/YouStock/go-aura/releases/download/1.7.3.1/geth-aura-windows-4.0-386_1.7.3.zip",
+                            "url": "https://github.com/YouStock/go-aura/releases/download/1.7.3.1/aura-aura-windows-4.0-386_1.7.3.zip",
                             "type": "zip",
                             "md5": "56ce9c4e3fd0fa126413f15fb2cdd469",
-                            "bin": "geth-aura-windows-4.0-386_1.7.3\\geth.exe"
+                            "bin": "aura-aura-windows-4.0-386_1.7.3\\aura.exe"
                         },
-                        "bin": "geth.exe",
+                        "bin": "aura.exe",
                         "commands": {
                             "sanity": {
                                 "args": [
                                     "version"
                                 ],
                                 "output": [
-                                    "Geth",
+                                    "Aura",
                                     "1.7.3"
                                 ]
                             }

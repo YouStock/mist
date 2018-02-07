@@ -168,9 +168,9 @@ Section Mist MIST_IDX
     CreateShortCut "$SHORTCUTDIR\Uninstall.lnk" "$FILEDIR\uninstall.exe"
 
     ## Firewall - add rules
-    #SimpleFC::AdvAddRule "Geth incoming peers (TCP:30303)" ""  6 1 1 2147483647 1 "$DATADIR\binaries\Geth\unpacked\geth.exe" "" "" "Ethereum" 30303 "" "" ""
-    #SimpleFC::AdvAddRule "Geth outgoing peers (TCP:30303)" ""  6 2 1 2147483647 1 "$DATADIR\binaries\Geth\unpacked\geth.exe" "" "" "Ethereum" "" 30303 "" ""
-    #SimpleFC::AdvAddRule "Geth UDP discovery (UDP:30303)" "" 17 2 1 2147483647 1 "$DATADIR\binaries\Geth\unpacked\geth.exe" "" "" "Ethereum" "" 30303 "" ""
+    #SimpleFC::AdvAddRule "Aura incoming peers (TCP:30303)" ""  6 1 1 2147483647 1 "$DATADIR\binaries\Aura\unpacked\aura.exe" "" "" "Ethereum" 30303 "" "" ""
+    #SimpleFC::AdvAddRule "Aura outgoing peers (TCP:30303)" ""  6 2 1 2147483647 1 "$DATADIR\binaries\Aura\unpacked\aura.exe" "" "" "Ethereum" "" 30303 "" ""
+    #SimpleFC::AdvAddRule "Aura UDP discovery (UDP:30303)" "" 17 2 1 2147483647 1 "$DATADIR\binaries\Aura\unpacked\aura.exe" "" "" "Ethereum" "" 30303 "" ""
 
     # write registry strings for uninstallation
     WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${GROUPNAME} ${APPNAME}" "DisplayName" "${GROUPNAME} ${APPNAME}"
@@ -237,9 +237,9 @@ Section "uninstall"
     rmDir /r /REBOOTOK "$FILEDIR"
 
     ## Firewall - remove rules (if exists)
-    #SimpleFC::AdvRemoveRule "Geth incoming peers (TCP:30303)"
-    #SimpleFC::AdvRemoveRule "Geth outgoing peers (TCP:30303)"
-    #SimpleFC::AdvRemoveRule "Geth UDP discovery (UDP:30303)"
+    #SimpleFC::AdvRemoveRule "Aura incoming peers (TCP:30303)"
+    #SimpleFC::AdvRemoveRule "Aura outgoing peers (TCP:30303)"
+    #SimpleFC::AdvRemoveRule "Aura UDP discovery (UDP:30303)"
 
     # delete registry strings
     DeleteRegKey HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${GROUPNAME} ${APPNAME}"

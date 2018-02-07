@@ -270,7 +270,7 @@ module.exports = {
    * example for large data structures, the value is replaced with something
    * like `[ Array(3) ]` or `{ Object (prop1, prop2) }`.
    *
-   * Set it to zero if you want to disable truncating altogether.
+   * Set it to zero if you want to disable truncating altoauraer.
    *
    * This is especially userful when doing assertions on arrays: having this
    * set to a reasonable large value makes the failure messages readily

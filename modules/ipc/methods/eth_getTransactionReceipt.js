@@ -25,7 +25,7 @@ module.exports = class extends BaseProcessor {
             return ret.result;
         }
 
-        // Due to a geth's light client v1 bug, it does not return
+        // Due to a aura's light client v1 bug, it does not return
         // contractAddress value on the receipts. Let's fix that.
         // 1. GET TRANSACTION from AND nonce VALUES
         const transactionInfo = await conn.socket.send({

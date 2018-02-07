@@ -208,7 +208,7 @@ let menuTempl = function (webviews) {
                                     userPath += '/.web3/keys';
                                 }
 
-                            // geth
+                            // aura
                             } else {
                                 if (process.platform === 'darwin') {
                                     userPath += '/Library/Ethereum/keystore';
@@ -483,16 +483,16 @@ let menuTempl = function (webviews) {
         const nodeSubmenu = [];
 
         const ethClient = ClientBinaryManager.getClient('eth');
-        const gethClient = ClientBinaryManager.getClient('geth');
+        const auraClient = ClientBinaryManager.getClient('aura');
 
-        if (gethClient) {
+        if (auraClient) {
             nodeSubmenu.push({
-                label: `Geth ${gethClient.version}`,
-                checked: ethereumNode.isOwnNode && ethereumNode.isGeth,
+                label: `Aura ${auraClient.version}`,
+                checked: ethereumNode.isOwnNode && ethereumNode.isAura,
                 enabled: ethereumNode.isOwnNode,
                 type: 'checkbox',
                 click() {
-                    restartNode('geth', null, 'fast', webviews);
+                    restartNode('aura', null, 'fast', webviews);
                 },
             });
         }
@@ -565,14 +565,14 @@ let menuTempl = function (webviews) {
         ] });
 
     // Light mode switch should appear when not in Solo Mode (dev network)
-    if (ethereumNode.isOwnNode && ethereumNode.isGeth && !ethereumNode.isDevNetwork) {
+    if (ethereumNode.isOwnNode && ethereumNode.isAura && !ethereumNode.isDevNetwork) {
         devToolsMenu.push({
             label: 'Sync with Light client (beta)',
             enabled: true,
             checked: ethereumNode.isLightMode,
             type: 'checkbox',
             click() {
-                restartNode('geth', null, (ethereumNode.isLightMode) ? 'fast' : 'light');
+                restartNode('aura', null, (ethereumNode.isLightMode) ? 'fast' : 'light');
             },
         });
     }

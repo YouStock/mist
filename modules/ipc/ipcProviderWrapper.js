@@ -28,7 +28,7 @@ const ipcProviderWrapper = {
     writable: false,
 
     /**
-    Connects the IPC on the backend to the geth node
+    Connects the IPC on the backend to the aura node
 
     Note: web3.isConnected will always return true, as otherwise race conditions can occour,
     letting it look like youre not connected via IPC.
