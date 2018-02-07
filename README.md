@@ -1,4 +1,4 @@
-# Mist Browser
+# Mist Browsr
 
 [![Join the chat at https://gitter.im/ethereum/mist](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ethereum/mist?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status develop branch](https://travis-ci.org/ethereum/mist.svg?branch=develop)](https://travis-ci.org/ethereum/mist)
@@ -43,14 +43,14 @@ To run mist in development you need:
 - [Node.js](https://nodejs.org) `v7.x` (use the prefered installation method for your OS)
 - [Meteor](https://www.meteor.com/install) javascript app framework
 - [Yarn](https://yarnpkg.com/) package manager
-- [Electron](http://electron.atom.io/) `v1.7.9` cross platform desktop app framework
+- [Electron](http://electron.atom.io/) `v1.7.12` cross platform desktop app framework
 - [Gulp](http://gulpjs.com/) build and automation system
 
 Install the latter ones via:
 
     $ curl https://install.meteor.com/ | sh
     $ curl -o- -L https://yarnpkg.com/install.sh | bash
-    $ yarn global add electron@1.7.9
+    $ yarn global add electron@1.7.12
     $ yarn global add gulp
 
 ### Initialisation
