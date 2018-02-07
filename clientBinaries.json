@@ -1,15 +1,15 @@
 {
     "clients": {
-        "Aura": {
+        "Geth": {
             "version": "1.7.3",
             "platforms": {
                 "linux": {
                     "x64": {
                         "download": {
-									 "url": "https://github.com/YouStock/go-aura/releases/download/1.7.3.1/aura-aura-linux-amd64_1.7.3.tar.gz",
+									 "url": "https://github.com/YouStock/go-aura/releases/download/1.7.3.1/aura-linux-amd64_1.7.3.tar.gz",
                             "type": "tar",
-                            "md5": "598d3326376464c97d8d7de1f2157e56",
-                            "bin": "aura-aura-linux-amd64_1.7.3/aura"
+                            "md5": "4fe27b12d63cb919925de08218754dc8",
+                            "bin": "aura-linux-amd64_1.7.3/aura"
                         },
                         "bin": "aura",
                         "commands": {
@@ -18,7 +18,7 @@
                                     "version"
                                 ],
                                 "output": [
-                                    "Aura",
+                                    "Geth",
                                     "1.7.3"
                                 ]
                             }
@@ -26,10 +26,10 @@
                     },
                     "ia32": {
                         "download": {
-                            "url": "https://github.com/YouStock/go-aura/releases/download/1.7.3.1/aura-aura-linux-386_1.7.3.tar.gz",
+                            "url": "https://github.com/YouStock/go-aura/releases/download/1.7.3.1/aura-linux-386_1.7.3.tar.gz",
                             "type": "tar",
-                            "md5": "0e91d298e5516164f58c6ca9497c23b8",
-                            "bin": "aura-aura-linux-386_1.7.3/aura"
+                            "md5": "e8eb9c31adee6ad94ffa8fbd717a70ad",
+                            "bin": "aura-linux-386_1.7.3/aura"
                         },
                         "bin": "aura",
                         "commands": {
@@ -38,7 +38,7 @@
                                     "version"
                                 ],
                                 "output": [
-                                    "Aura",
+                                    "Geth",
                                     "1.7.3"
                                 ]
                             }
@@ -48,10 +48,10 @@
                 "mac": {
                     "x64": {
                         "download": {
-                            "url": "https://github.com/YouStock/go-aura/releases/download/1.7.3.1/aura-aura-darwin-10.6-amd64_1.7.3.tar.gz",
+                            "url": "https://github.com/YouStock/go-aura/releases/download/1.7.3.1/aura-darwin-10.6-amd64_1.7.3.tar.gz",
                             "type": "tar",
                             "md5": "23f768001533a3296f5e8cc6d5270239",
-                            "bin": "aura-aura-darwin-10.6-amd64_1.7.3/aura"
+                            "bin": "aura-darwin-10.6-amd64_1.7.3/aura"
                         },
                         "bin": "aura",
                         "commands": {
@@ -60,7 +60,7 @@
                                     "version"
                                 ],
                                 "output": [
-                                    "Aura",
+                                    "Geth",
                                     "1.7.3"
                                 ]
                             }
@@ -70,10 +70,10 @@
                 "win": {
                     "x64": {
                         "download": {
-                            "url": "https://github.com/YouStock/go-aura/releases/download/1.7.3.1/aura-aura-windows-4.0-amd64_1.7.3.zip",
+                            "url": "https://github.com/YouStock/go-aura/releases/download/1.7.3.1/aura-windows-4.0-amd64_1.7.3.zip",
                             "type": "zip",
-                            "md5": "5e965e92dec39ad8c9a11f6b86f59272",
-                            "bin": "aura-aura-windows-4.0-amd64_1.7.3\\aura.exe"
+                            "md5": "7c88cc8473ea11b0a159c99280d123ec",
+                            "bin": "aura-windows-4.0-amd64_1.7.3\\aura.exe"
                         },
                         "bin": "aura.exe",
                         "commands": {
@@ -82,7 +82,7 @@
                                     "version"
                                 ],
                                 "output": [
-                                    "Aura",
+                                    "Geth",
                                     "1.7.3"
                                 ]
                             }
@@ -90,10 +90,10 @@
                     },
                     "ia32": {
                         "download": {
-                            "url": "https://github.com/YouStock/go-aura/releases/download/1.7.3.1/aura-aura-windows-4.0-386_1.7.3.zip",
+                            "url": "https://github.com/YouStock/go-aura/releases/download/1.7.3.1/aura-windows-4.0-386_1.7.3.zip",
                             "type": "zip",
-                            "md5": "56ce9c4e3fd0fa126413f15fb2cdd469",
-                            "bin": "aura-aura-windows-4.0-386_1.7.3\\aura.exe"
+                            "md5": "a826be2da975b0a4e820c55df26e60fd",
+                            "bin": "aura-windows-4.0-386_1.7.3\\aura.exe"
                         },
                         "bin": "aura.exe",
                         "commands": {
@@ -102,7 +102,7 @@
                                     "version"
                                 ],
                                 "output": [
-                                    "Aura",
+                                    "Geth",
                                     "1.7.3"
                                 ]
                             }
