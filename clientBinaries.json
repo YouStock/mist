@@ -50,7 +50,7 @@
                         "download": {
                             "url": "https://github.com/YouStock/go-aura/releases/download/1.7.3.1/aura-darwin-10.6-amd64_1.7.3.tar.gz",
                             "type": "tar",
-                            "md5": "23f768001533a3296f5e8cc6d5270239",
+                            "md5": "d29fe7b53d6e3273ed0e7193ebce2710",
                             "bin": "aura-darwin-10.6-amd64_1.7.3/aura"
                         },
                         "bin": "aura",
