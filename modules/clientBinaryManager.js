@@ -12,7 +12,7 @@ const EventEmitter = require('events').EventEmitter;
 const log = require('./utils/logger').create('ClientBinaryManager');
 
 // should be        https://raw.githubusercontent.com/YouStock/deskwallet/master/clientBinaries.json
-const BINARY_URL = 'https://raw.githubusercontent.com/YouStock/deskwallet/master/clientBinaries.json';
+const BINARY_URL = 'https://raw.githubusercontent.com/YouStock/deskwallet/aura/clientBinaries.json';
 
 const ALLOWED_DOWNLOAD_URLS_REGEX =
     /^https:\/\/github\.com\/YouStock\/go-aura\/releases\/download\/(?:.+)/;  // eslint-disable-line max-len
