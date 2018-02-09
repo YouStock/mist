@@ -10,7 +10,7 @@ const CONNECT_TIMEOUT_MS = 3000;
 
 
 /**
- * Socket connecting to Ethereum Node.
+ * Socket connecting to Aura Node.
  */
 class Socket extends EventEmitter {
     constructor(socketMgr, id) {

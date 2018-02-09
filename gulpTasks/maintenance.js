@@ -19,7 +19,7 @@ gulp.task('update-nodes', (cb) => {
     const aura = newJson.clients.Aura;
 
     // Query latest aura version
-    got('https://api.github.com/repos/ethereum/go-ethereum/releases/latest', { json: true })
+    got('https://api.github.com/repos/YouStock/go-aura/releases/latest', { json: true })
     .then((response) => {
         return response.body.tag_name;
     })
@@ -32,7 +32,7 @@ gulp.task('update-nodes', (cb) => {
             aura.version = latestAuraVersion;
 
             // Query commit hash (first 8 characters)
-            got(`https://api.github.com/repos/ethereum/go-ethereum/commits/${tagName}`, { json: true })
+            got(`https://api.github.com/repos/YouStock/go-aura/commits/${tagName}`, { json: true })
             .then((response) => {
                 return String(response.body.sha).substr(0, 8);
             })

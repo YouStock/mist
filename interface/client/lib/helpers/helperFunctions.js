@@ -219,8 +219,8 @@ Helpers.detectNetwork = function (hash) {
     var network = {};
 
     switch (hash) {
-    case '0xd4e56740f876aef8c010b86a40d5f56745a118d0906a34e69aec8c0db1cb8fa3':
-        console.log('Network is mainnet');
+    case '0x8a5a0c713aa73ba4a6e368fd840b76c7d4a0a276fe1847acf94fe568c9614ed7':
+        console.log('Network is aura');
         network.type = 'mainnet';
         network.name = 'Main';
         break;

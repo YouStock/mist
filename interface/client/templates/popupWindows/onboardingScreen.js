@@ -157,7 +157,7 @@ Template['popupWindows_onboardingScreen'].events({
         TemplateVar.set('currentActive', 'start');
     },
     'click .goto-import-account': function () {
-        TemplateVar.set('currentActive', 'import-account');
+        TemplateVar.set('currentActive', 'password'); //skip importing account
 
         // if testnet, make sure to switch to the mainnet
         if (TemplateVar.get('testnet')) {

@@ -1,6 +1,6 @@
-Ethereum Wallet
+Aura Wallet
 
-The Ethereum wallet, which allows you to create simple and multisig wallets to manage your ether.
+The Aura wallet, which allows you to create simple and multisig wallets to manage your ether.
 
 The wallet contains its own node, but can also use an already running one, if the IPC path of that node is the standard path.
 (See below)
@@ -9,11 +9,11 @@ The wallet contains its own node, but can also use an already running one, if th
 
 When you start the wallet on a testnet (e.g. different `--datadir`) you need to make sure to set the `--ipcpath` back to the original one.
 
-On OSX its `~/Library/Ethereum/aura.ipc` on linux `~/.ethereum/aura.ipc` and on windows it uses a named pipe, which doesn't need to be renamed.
+On OSX its `~/Library/Aura/geth.ipc` on linux `~/.ethereum/geth.ipc` and on windows it uses a named pipe, which doesn't need to be renamed.
 
 Example:
 
-    $ aura --datadir /my/chain/ --networkid 23 --ipcpath ~/Library/Ethereum/aura.ipc
+    $ aura --datadir /my/chain/ --networkid 23 --ipcpath ~/Library/Aura/geth.ipc
 
 
 
@@ -38,8 +38,8 @@ The wallet (Mist) stores its data at:
 - Linux: ~/.config/Mist
 
 The nodes data is stored at:
-- Mac: ~/Library/Ethereum
-- Windows: %APPDATA%\Roaming\Ethereum
+- Mac: ~/Library/Aura
+- Windows: %APPDATA%\Roaming\Aura
 - Linux: ~/.ethereum
 
 

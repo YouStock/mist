@@ -43,7 +43,7 @@
                 "devToolsWebview": "__webview__",
                 "runTests": "테스트 실행",
                 "logFiles": "로그파일 보기",
-                "ethereumNode": "이더리움 노드",
+                "AuraNode": "이더리움 노드",
                 "network": "네트워크",
                 "mainNetwork": "메인 네트워크",
                 "startMining": "⛏ 채굴 시작(테스트넷만 해당)",
@@ -81,7 +81,7 @@
             },
             "legacyChain": {
                 "title": "레거시 체인 감지",
-                "description": "노드가 현재 지원되지 않는 이더리움 클래식 체인에 있습니다. 이 체인을 사용하려면 이더리움 클래식 프로젝트에서 제공하는 도구를 사용하십시오.\nhttps://ethereumclassic.github.io.\n\n이더리움 체인으로 되돌리려면 튜토리얼을 살펴보세요.:\nhttps://github.com/ethereum/mist/releases/0.8.2"
+                "description": "노드가 현재 지원되지 않는 이더리움 클래식 체인에 있습니다. 이 체인을 사용하려면 이더리움 클래식 프로젝트에서 제공하는 도구를 사용하십시오.\nhttps://Auraclassic.github.io.\n\n이더리움 체인으로 되돌리려면 튜토리얼을 살펴보세요.:\nhttps://github.com/Aura/mist/releases/0.8.2"
             }
         },
         "rightClick": {
@@ -119,8 +119,8 @@
             "runningNodeFound": "작동 중인 이더리움 노드를 발견!",
             "startingNode": "이더리움 노드 시작...",
             "startedNode": "어플리케이션 시작...",
-            "nodeConnectionTimeout": "이더리움 노드를 시작할 수 없었습니다! <br><small>만일<a href='https://www.ethereum.org/cli#aura' class='button' target='_blank'>Aura</a> 를 인스톨 했다면, 다음의 명령어를 사용해 실행하세요: <br> <code>aura --ipcpath __path__</code></small><br> <small><a href='https://github.com/ethereum/mist/issues' class='button' target='_blank'> 또는 이슈를 리포트하세요 </a></small>",
-            "nodeBinaryNotFound": "이더리움 노드 실행파일이 없습니다!<br><small> <a href='https://www.ethereum.org/cli#aura' class='button' target='_blank'> 수동으로 이를 먼저 실행하세요.</a> </small>",
+            "nodeConnectionTimeout": "이더리움 노드를 시작할 수 없었습니다! <br><small>만일<a href='https://www.Aura.org/cli#aura' class='button' target='_blank'>Aura</a> 를 인스톨 했다면, 다음의 명령어를 사용해 실행하세요: <br> <code>aura --ipcpath __path__</code></small><br> <small><a href='https://github.com/Aura/mist/issues' class='button' target='_blank'> 또는 이슈를 리포트하세요 </a></small>",
+            "nodeBinaryNotFound": "이더리움 노드 실행파일이 없습니다!<br><small> <a href='https://www.Aura.org/cli#aura' class='button' target='_blank'> 수동으로 이를 먼저 실행하세요.</a> </small>",
             "nodeSyncing": "이더리움 노드에 동기화가 필요합니다, 기다려 주세요...",
             "nodeSyncInfo": "현재 __highestBlock__ 중 __currentBlcok__ 을 다운로드중",
             "nodeSyncConnecting": "피어(peer)를 탐색하고 있는 중...",
@@ -141,7 +141,7 @@
                 "downloading": "새로운 노드 다운로드중...",
                 "loadConfig": "클라이언트 설정 로딩중...",
                 "filtering": "클라이언트 바이너리 필터링중...",
-                "done": "Ethereum node up-to-date...",
+                "done": "Aura node up-to-date...",
                 "error": "다운로드 된 바이너리 실행 중 오류."
             }
         },
@@ -208,7 +208,7 @@
                 "gotoMainnet": "메인 네트워크 사용하기",
                 "gotoMainnetDescription": "계약을 만들고 사용하기 위해서는 약간의 이더가 필요합니다. 약간의 이더를 가질 수 있도록 도와줄 수 있습니다.",
                 "doYouHaveAWalletFile": "지갑 파일을 가지고 있나요?",
-                "walletFileDescription": "<p>만일 2014년 이더리움 프리세일에 참여했다면, <code>ethereum_wallet_backup.json</code> 이란 파일을 가지고 있을 겁니다. 세일이 끝나고 다운로드를 받았거나 이메일로 받았을 겁니다.</p>",
+                "walletFileDescription": "<p>만일 2014년 이더리움 프리세일에 참여했다면, <code>Aura_wallet_backup.json</code> 이란 파일을 가지고 있을 겁니다. 세일이 끝나고 다운로드를 받았거나 이메일로 받았을 겁니다.</p>",
                 "dropFilesHere": "프리세일 파일을 가져다 놓기",
                 "creating": "만드는 중...",
                 "importing": "불러오는 중...",
@@ -219,7 +219,7 @@
                 "accountTitle": "구동 시작!",
                 "accountTitleTestnet": "채굴 성공!",
                 "etherDescription": "이더리움은 '이더'라는 토큰을 기반으로 하고 있습니다. 이더리움을 사용하기 위해서는 약간의 이더가 필요하게 될 것입니다.",
-                "loadItDescription": "만일 비트코인이나 다른 암호화 화폐를 가지고 있다면, shapeshift를 이용해 손쉽게 이더로 바꿀 수 있습니다. <br><br> 약 <strong>0.25 to 1 ether</strong> 이더 정도를 바꿀 것을 추천합니다.",
+                "loadItDescription": "만일 비트코인이나 다른 암호화 화폐를 가지고 있다면, exchange를 이용해 손쉽게 이더로 바꿀 수 있습니다. <br><br> 약 <strong>0.25 to 1 aura</strong> 이더 정도를 바꿀 것을 추천합니다.",
                 "mineItDescription": "<strong>테스트넷상에서는 <em>개발</em> 메뉴에 있는 <em>채굴 시작</em>을 선택함으로써 이더를 채굴할 수 있습니다. </strong> <br> <strong>이 주소로 진짜 이더를 절대 보내지 마세요.</strong>",
                 "you": "당신",
                 "etherbase": "주 계정(이더베이스)",
@@ -241,7 +241,7 @@
                     "wrongPassword": "암호가 틀렸습니다.",
                     "importFailed": "파일을 가져올 수 없습니다: __error__"
                 },
-                "viaShapeshift": "<a href='https://shapeshift.io/' target='_blank'>Shapeshift</a>를 통한 빠른 전환",
+                "viaExchange": "<a href='https://exchange.io/' target='_blank'>Exchange</a>를 통한 빠른 전환",
                 "syncMessage": "블록 __highestBlockString__ 중 __displayBlock__",
                 "syncMessageWithStates": "블록 __highestBlockString__ 중 __displayBlock__ (체인 구조 __statesPercent__%)",
                 "startingSync": "동기화 준비중.."

@@ -273,13 +273,13 @@ class Settings {
         ipcPath = this.userHomePath;
 
         if (process.platform === 'darwin') {
-            ipcPath += '/Library/Aura/aura.ipc';
+            ipcPath += '/Library/Aura/geth.ipc';
         } else if (process.platform === 'freebsd' ||
        process.platform === 'linux' ||
        process.platform === 'sunos') {
-            ipcPath += '/.aura/aura.ipc';
+            ipcPath += '/.aura/geth.ipc';
         } else if (process.platform === 'win32') {
-            ipcPath = '\\\\.\\pipe\\aura.ipc';
+            ipcPath = '\\\\.\\pipe\\geth.ipc';
         }
 
         this._log.debug(`IPC path: ${ipcPath}`);

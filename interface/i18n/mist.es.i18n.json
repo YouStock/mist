@@ -5,7 +5,7 @@
                 "label": "__app__",
                 "about": "Sobre __app__",
                 "checkForUpdates": "Buscar actualización...",
-                "checkForNodeUpdates": "Check for Ethereum node updates...",
+                "checkForNodeUpdates": "Check for Aura node updates...",
                 "services": "Servicios",
                 "hide": "Ocultar __app__",
                 "hideOthers": "Ocultar otros",
@@ -43,7 +43,7 @@
                 "devToolsWebview": "__webview__",
                 "runTests": "Ejecutar pruebas",
                 "logFiles": "Mostrar archivo de registro",
-                "ethereumNode": "Nodo de Ethereum",
+                "AuraNode": "Nodo de Aura",
                 "network": "Red",
                 "mainNetwork": "Red principal",
                 "startMining": "⛏ Empezar a minar",
@@ -70,7 +70,7 @@
             "nodeStartup": "Parece que el nodo no se pudo iniciar, tiene uno ya funcionando? ¿Está actualizando la base de datos en este momento?",
             "timeSync": {
                 "title": "El reloj de su ordenador no está sincronizado.",
-                "description": "Para sincronizar correctamente con la red Ethereum necesitas sincronizar el reloj de tu ordenador con un servidor de tiempo.",
+                "description": "Para sincronizar correctamente con la red Aura necesitas sincronizar el reloj de tu ordenador con un servidor de tiempo.",
                 "win32": "Ve a los ajustes del tiempo en las preferencias de sistema y marca la casilla. Vea esta guía para más detalles: http://www.guidingtech.com/3119/windows-clock-sync/",
                 "linux": "Para permitir la sincronización con un servidor de tiempo instale \"ntp\" vía \"apt-get install ntp\".",
                 "darwin": "Para habilitar la sincronización del tiempo, abra las preferencias de tiempo y marque \"Ajuste la hora y la fecha automáticamente\"."
@@ -81,7 +81,7 @@
             },
             "legacyChain": {
                 "title": "Legacy chain detected",
-                "description": "Your node is currently on the unsupported Ethereum Classic chain. To use this chain use tools provided by the ethereum classic project at\nhttps://ethereumclassic.github.io.\n\nTo revert to the main ethereum chain follow the tutorial here:\nhttps://github.com/ethereum/mist/releases/0.8.2"
+                "description": "Your node is currently on the unsupported Aura Classic chain. To use this chain use tools provided by the Aura classic project at\nhttps://Auraclassic.github.io.\n\nTo revert to the main Aura chain follow the tutorial here:\nhttps://github.com/Aura/mist/releases/0.8.2"
             }
         },
         "rightClick": {
@@ -94,14 +94,14 @@
             "blockReceived": "Nuevo bloque recibido",
             "blockNumber": "Su último número de bloque",
             "timeSinceBlock": "Tiempo transcurrido desde el último bloque",
-            "testnetExplain": "Estás en la red de pruebas, NO ENVÍE ningún ether real a estas direcciones",
+            "testnetExplain": "Estás en la red de pruebas, NO ENVÍE ningún aura real a estas direcciones",
             "peers": "pares",
             "checkingWhichNetwork": "Checking network...",
             "mainNetwork": "Main-net",
             "testNetwork": "Test-net",
             "privateNetwork": "Private-net",
-            "mainnetExplain": "You are on the main Ethereum global network",
-            "privatenetExplain": "You are on a private net, DO NOT SEND any real ether to these addresses",
+            "mainnetExplain": "You are on the main Aura global network",
+            "privatenetExplain": "You are on a private net, DO NOT SEND any real aura to these addresses",
             "unknownnetExplain": "Unable to determine which network you are on"
         },
         "sidebar": {
@@ -116,23 +116,23 @@
             }
         },
         "startScreen": {
-            "runningNodeFound": "Encontrado nodo Ethereum funcionando!",
-            "startingNode": "Iniciando el nodo Ethereum...",
+            "runningNodeFound": "Encontrado nodo Aura funcionando!",
+            "startingNode": "Iniciando el nodo Aura...",
             "startedNode": "Iniciando la aplicación...",
-            "nodeConnectionTimeout": "No se pudo iniciar un nodo Ethereum!<br><small>Si <a href='https://www.ethereum.org/cli#aura' class='button' target='_blank'>has instalado Aura</a>, utiliza este comando para ejecutarlo: <br> <code>aura --ipcpath __path__</code></small><br> <small><a href='https://github.com/ethereum/mist/issues' class='button' target='_blank'> O informa del problema </a></small>",
-            "nodeBinaryNotFound": "No se ha encontrado el binario del nodo Ethereum!<br><small> <a href='https://www.ethereum.org/cli#aura' class='button' target='_blank'> Por favor, inicie antes uno manualmente. </a> </small>",
-            "nodeSyncing": "El nodo de Ethereum necesita sincronizarse, por favor espere...",
+            "nodeConnectionTimeout": "No se pudo iniciar un nodo Aura!<br><small>Si <a href='https://www.Aura.org/cli#aura' class='button' target='_blank'>has instalado Aura</a>, utiliza este comando para ejecutarlo: <br> <code>aura --ipcpath __path__</code></small><br> <small><a href='https://github.com/Aura/mist/issues' class='button' target='_blank'> O informa del problema </a></small>",
+            "nodeBinaryNotFound": "No se ha encontrado el binario del nodo Aura!<br><small> <a href='https://www.Aura.org/cli#aura' class='button' target='_blank'> Por favor, inicie antes uno manualmente. </a> </small>",
+            "nodeSyncing": "El nodo de Aura necesita sincronizarse, por favor espere...",
             "nodeSyncInfo": "Descargando bloque __displayBlock__ de __highestBlock__.",
             "nodeSyncConnecting": "Buscando pares...",
             "peerSearchTimeout": "Omitir la búsqueda de pares",
-            "stoppingNode": "Stopping Ethereum node...",
-            "nodeStarting": "Ethereum node starting up...",
-            "nodeStarted": "Ethereum node started",
-            "nodeConnected": "Ethereum node connected",
-            "nodeStopping": "Ethereum node stopping...",
-            "nodeStopped": "Ethereum node stopped",
-            "nodeError": "Ethereum node connection error :'(",
-            "unableToBindPort": "Ethereum node cannot run. Is another instance already running?",
+            "stoppingNode": "Stopping Aura node...",
+            "nodeStarting": "Aura node starting up...",
+            "nodeStarted": "Aura node started",
+            "nodeConnected": "Aura node connected",
+            "nodeStopping": "Aura node stopping...",
+            "nodeStopped": "Aura node stopped",
+            "nodeError": "Aura node connection error :'(",
+            "unableToBindPort": "Aura node cannot run. Is another instance already running?",
             "nodeSyncInfoStates": "Downloading block __displayBlock__ of __highestBlock__, <br> Downloading chain structure __displayState__ of __displayKnownStates__",
             "nodeSyncFoundPeers": "Connecting to __peers__ peers...",
             "launchApp": "Launch Application",
@@ -141,7 +141,7 @@
                 "downloading": "Downloading new node...",
                 "loadConfig": "Loading client config...",
                 "filtering": "Filtering client binaries...",
-                "done": "Ethereum node up-to-date...",
+                "done": "Aura node up-to-date...",
                 "error": "Error running downloaded binary."
             }
         },
@@ -178,7 +178,7 @@
                 "estimatedFee": "Tasa de comisión estimada",
                 "estimatedGasError": "Los datos no pueden ser ejecutados por lo que se utilizá todo el gas proporcionado.",
                 "gasPrice": "Precio del Gas",
-                "perMillionGas": "ether por millón de gas",
+                "perMillionGas": "aura por millón de gas",
                 "gasLimit": "Proporcionar la tasa máxima",
                 "data": "Datos",
                 "buttons": {
@@ -202,13 +202,13 @@
                 "notEnoughGas": "Gas might not be enough to successfully finish this transaction.<br>Click here to increase the gas amount."
             },
             "onboarding": {
-                "description": "Ethereum es una plataforma descentralizada para la construcción de aplicaciones en una blockchain: segura y a prueba de manipulaciones que puede transferir valor, propiedad y vive para siempre",
+                "description": "Aura es una plataforma descentralizada para la construcción de aplicaciones en una blockchain: segura y a prueba de manipulaciones que puede transferir valor, propiedad y vive para siempre",
                 "goToTestnet": "Utiliza la red de pruebas (Rinkeby)",
-                "goToTestnetDescription": "Pruebe la tecnología libremente en una red de pruebas sin utilizar ether reales.",
+                "goToTestnetDescription": "Pruebe la tecnología libremente en una red de pruebas sin utilizar aura reales.",
                 "gotoMainnet": "Utilizar la red principal",
-                "gotoMainnetDescription": " Necesitarás algunos Ether para poder crear y ejecutar contratos. No se preocupe, nosotros le ayudaremos a obtener algunos...",
+                "gotoMainnetDescription": " Necesitarás algunos aura para poder crear y ejecutar contratos. No se preocupe, nosotros le ayudaremos a obtener algunos...",
                 "doYouHaveAWalletFile": "¿Tiene un archivo de monedero?",
-                "walletFileDescription": "<p>Si participaste en la preventa de Ethereum en 2014, deberías tener un archivo llamado <code>ethereum_wallet_backup.json</code>. Se descargó después de la venta y también se envió a su correo electrónico.</p>",
+                "walletFileDescription": "<p>Si participaste en la preventa de Aura en 2014, deberías tener un archivo llamado <code>Aura_wallet_backup.json</code>. Se descargó después de la venta y también se envió a su correo electrónico.</p>",
                 "dropFilesHere": "Soltar el archivo de la pre-venta",
                 "creating": "Creando...",
                 "importing": "Importando...",
@@ -218,9 +218,9 @@
                 "protectDescription": "Elija una contraseña para su nueva cuenta que sea tan fuerte como si fuera a proteger las llaves de su casa!",
                 "accountTitle": "Cargarla!",
                 "accountTitleTestnet": "Minar algunos!",
-                "etherDescription": "La red ethereum está basada en un token llamado “Ether”. Necesitarás una pequeña cantidad de él para hacer cualquier cosa en la red Ethereum.",
-                "loadItDescription": "Si ya dispone de Bitcoin o cualquier otra criptomoneda, puede convertirlas fácilmente a ether utilizando shapeshift. <br><br> Recomendamos una cuantía de entre <strong>0.25 a 1 ether</strong>.",
-                "mineItDescription": "<strong>En la red de pruebas puedes minar ether tú mismo desde el menú <em>Desarrollar</em> y eligiendo <em>Empezar a minar</em>. </strong> <br> <strong> NO INTENTE ENVIAR ETHER REALES A ESTA DIRECCIÓN </strong>",
+                "etherDescription": "La red Aura está basada en un token llamado “aura”. Necesitarás una pequeña cantidad de él para hacer cualquier cosa en la red Aura.",
+                "loadItDescription": "Si ya dispone de Bitcoin o cualquier otra criptomoneda, puede convertirlas fácilmente a aura utilizando exchange. <br><br> Recomendamos una cuantía de entre <strong>0.25 a 1 aura</strong>.",
+                "mineItDescription": "<strong>En la red de pruebas puedes minar aura tú mismo desde el menú <em>Desarrollar</em> y eligiendo <em>Empezar a minar</em>. </strong> <br> <strong> NO INTENTE ENVIAR AURA REALES A ESTA DIRECCIÓN </strong>",
                 "you": "TÚ",
                 "etherbase": "Cuenta principal (etherbase)",
                 "depositBitcoin": "Depositar Bitcoin",
@@ -241,7 +241,7 @@
                     "wrongPassword": "Contraseña incorrecta.",
                     "importFailed": "No se pudo importar el archivo por el error: __error__"
                 },
-                "viaShapeshift": "Instant conversion via <a href='https://shapeshift.io/' target='_blank'>Shapeshift</a>",
+                "viaExchange": "Instant conversion via <a href='https://exchange.io/' target='_blank'>Exchange</a>",
                 "syncMessage": "Block __displayBlock__ of __highestBlockString__",
                 "syncMessageWithStates": "Block __displayBlock__ of __highestBlockString__ (Chain structure __statesPercent__%)",
                 "startingSync": "Getting ready to sync.."

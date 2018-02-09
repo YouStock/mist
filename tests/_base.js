@@ -102,7 +102,7 @@ exports.mocha = (_module, options) => {
             const platformArch = `${process.platform}-${process.arch}`;
 
             let appPath;
-            const ipcProviderPath = path.join(this.aura.dataDir, 'aura.ipc');
+            const ipcProviderPath = path.join(this.aura.dataDir, 'geth.ipc');
 
             switch (platformArch) {
             case 'darwin-x64':
