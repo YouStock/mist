@@ -98,7 +98,7 @@ exports.mocha = (_module, options) => {
 
             this.aura = yield startAura();
 
-            const appFileName = (options.app === 'wallet') ? 'Ethereum Wallet' : 'Mist';
+            const appFileName = (options.app === 'wallet') ? 'Aura Wallet' : 'Mist';
             const platformArch = `${process.platform}-${process.arch}`;
 
             let appPath;

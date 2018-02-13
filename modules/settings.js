@@ -205,7 +205,7 @@ class Settings {
     }
 
     get appName() {
-        return this.uiMode === 'mist' ? 'Mist' : 'Ethereum Wallet';
+        return this.uiMode === 'mist' ? 'Mist' : 'Aura Wallet';
     }
 
     get appLicense() {

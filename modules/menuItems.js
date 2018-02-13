@@ -177,7 +177,7 @@ let menuTempl = function (webviews) {
                     });
                 },
             },
-            {
+            /*{
                 label: i18n.t('mist.applicationMenu.file.importPresale'),
                 accelerator: 'CommandOrControl+I',
                 enabled: ethereumNode.isMainNetwork,
@@ -188,7 +188,7 @@ let menuTempl = function (webviews) {
                         },
                     });
                 },
-            },
+            },*/
             {
                 type: 'separator',
             },
